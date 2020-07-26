@@ -1,0 +1,20 @@
+ .loading{
+height:300px;
+width:80%;
+background-color:black;
+box-shadow:2px 2px 2px 2px grey;
+border-radius:150px 150px 150px 150px;
+font-size:40px;
+color:white;
+ margin:10%;
+ margin-right:10%;
+margin-top:10%;
+text-align:center;
+justify-content:center;
+ }
+  
+ .App{
+  
+   text-align:center;
+ }
+ 

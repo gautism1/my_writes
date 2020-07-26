@@ -1,0 +1,38 @@
+.header{
+    margin-top:2%;
+}
+.nav{
+    display:flex;
+    flex-direction:column;
+}
+ul{
+     display:flex;
+     justify-content:space-evenly;
+     list-style:none;
+     padding:0;
+     margin-bottom:0px;
+}
+li{
+      display:inline;
+      border:2px solid darkgrey;
+      padding:10px;
+      border-radius:20px;
+}
+li:hover{
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+}
+.link{
+    color:grey;
+    text-decoration:none;
+}
+.logo{
+    text-align:center;
+    padding:5px;
+    font-size:20px;
+    color:brown;
+    font-weight:bolder;
+
+}
+
