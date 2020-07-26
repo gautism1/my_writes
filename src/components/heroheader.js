@@ -1,5 +1,5 @@
 import React,{lazy,Suspense }  from 'react';
-
+import Post from './posts.js'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 const Title =lazy(()=> import('./title'));
 
@@ -15,6 +15,7 @@ function heroheader()
                <Title/>
                    
         </div>
+        <Post/>
     </div>
     );
 }

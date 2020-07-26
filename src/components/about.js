@@ -1,7 +1,7 @@
 import React from 'react'
 import Dp from '../assets/dp.jpg'
 import './comp.css'
-import Post from './posts.js'
+
 function about()
 {
     return(
@@ -21,7 +21,7 @@ function about()
               <img src={Dp} className="dp"/>
               </div>
               </div>
-<Post/>
+ 
         </div>
     )
 }export default about;
