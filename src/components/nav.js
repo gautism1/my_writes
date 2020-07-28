@@ -11,7 +11,7 @@ function nav()
        <div className="logo">Litecode</div>
           <li><Link  exact to="/" className="link">Home</Link>
           </li>
-          <li><Link to="/Blogs" className="link">Article</Link>
+          <li><Link to="/Blogs" className="link">Blogs</Link>
           </li>
         
            <li>

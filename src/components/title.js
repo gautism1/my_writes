@@ -9,7 +9,8 @@ function title()
  
           <div className="line">
               <h1> Code Eat Sleep .....Repeat</h1>
-               <h5> Here:You an we solve programing problems regulary for  you</h5>
+                <h3>We brings you easy steps to get started</h3>
+                
           </div>
       </div>
     );

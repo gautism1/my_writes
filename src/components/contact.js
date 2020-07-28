@@ -6,6 +6,8 @@ function contact()
 {
     return(
   <div>
+  <About/>
+  <div className="contact-top"> 
   <div className="contact">
             <div className="contactinfo">
             You can contact me througn mail:
@@ -16,11 +18,9 @@ function contact()
             <code>
             https://www.linkedin.com/in/vipingautamj/</code>
         </div>
-        <div className="problem">
-    
+         
         </div>
-        </div>
-<About/>
+</div>
 </div>
 
 

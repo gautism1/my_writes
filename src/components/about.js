@@ -9,7 +9,7 @@ function about()
 <div>
         <div className="aboutme">
             <div className="about">
-              <h2>  Hello,</h2>
+             <p>Hello Geeks</p>
               <br></br> 
               <h3> We are Litecoders, we welcome you</h3>
                 <span>
@@ -20,6 +20,7 @@ function about()
             <div className="photo">
               <img src={Dp} className="dp"/>
               </div>
+              
               </div>
  
         </div>

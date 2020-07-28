@@ -1,33 +1,11 @@
-.about
-{
-      margin-left:1%;
-      
-      text-align:left;
-}
-h2
-{
-   
-    margin:2px;
-}
-h3
-{
-margin:2px;
-}
-span
-{
-    color:grey;
-    font-size:20px;
-}
+  
 .aboutme
 {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
 }
-.about
-{
-    margin-top:4%;
-}
+ 
 .photo
 {
     margin-top:5%;
@@ -40,17 +18,19 @@ span
     padding:10px;
     border-radius:300px;
 }
+.ontact-top{
+margin:0 auto;
+}
 .contact{
     display:flex;
     justify-content:space-evenly;
-    text-align:left;
     flex-wrap:wrap;
-    margin-right:10%;
+   
 }
 .contactinfo{
     font-weight:bold;
     margin-top:3%;
-    margin-left:2%;
+  
 }
  
 .head{
@@ -69,9 +49,9 @@ span
 }
 .info{
      text-align:left;
-     margin:0 auto;
+      
      margin-top:4%;
-     word-break:break-word;
+      
      font-size:20px;
 }
  
@@ -112,8 +92,57 @@ border-radius:30px;
   .topicname{
       font-weight:normal;
   }
-  .author{
+ .author{
       height:30px;
-      
+      display:flex;margin:0;
   }
-  
+.author p{
+    width:200px;
+    text-align:top;
+    margin:0;
+    margin-left:5%;
+}
+.author-image{
+    height:40px;
+    width:40px;
+    border-radius:30px;
+}
+.date
+{
+    font-size:10px;
+}
+.headingtopic a{
+text-decoration:none;
+color:black;
+font-weight:10;
+}
+.logimg{
+    height:20vw;
+    width:30%;
+    padding:20px;
+}
+.spanlist ul li{
+    text-decoration:none;
+    list-style:none;
+    border:none;
+    display:block;
+}
+.spanlist ul li:hover{
+box-shadow:none;
+font-weight:normal;
+ 
+}
+.spanlist ul{
+    display:block;
+}
+.npx{
+    width:100%;
+}
+.folder{
+    margin-top:5%;margin-left:5%;
+    text-align:center;
+}
+  .start{
+      height:100%;
+      width:100%;
+  }
