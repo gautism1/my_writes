@@ -4,7 +4,6 @@ import './App.css';
 const Nav = lazy(() => import('./components/nav'));
 const HeroHeader =lazy(()=> import('./components/heroheader'))
 const Blogs=lazy(()=>import('./components/blogs'))
-const About =lazy(()=> import('./components/about'))
 const Contact =lazy(()=> import ('./components/contact'))
 const renderLoader = () =>  <div >
 <h1>Loading...
@@ -23,7 +22,7 @@ function App() {
                  <Switch>
                      <Route path="/" exact component={HeroHeader} />
                      <Route path="/Blogs" component={Blogs} />
-                     <Route path="/About" component={About}/>
+                    
                      <Route path="/Contact" component={Contact}/>
                 </Switch>
                  </div>

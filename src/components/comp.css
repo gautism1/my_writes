@@ -84,7 +84,7 @@ span
   }
   
   .card{
-
+border-radius:30px;
       align-items:center;
       height:500px;
       text-align:left;

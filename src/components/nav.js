@@ -13,8 +13,7 @@ function nav()
           </li>
           <li><Link to="/Blogs" className="link">Article</Link>
           </li>
-          <li><Link to="/About" className="link">About</Link>
-          </li>
+        
            <li>
           <Link to="/Contact" className="link">Contact</Link> 
            </li>

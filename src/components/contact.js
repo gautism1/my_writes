@@ -1,10 +1,11 @@
 import React from 'react'
 
+import About  from  './about.js'
 import './comp.css'
 function contact()
 {
     return(
-  
+  <div>
   <div className="contact">
             <div className="contactinfo">
             You can contact me througn mail:
@@ -16,16 +17,10 @@ function contact()
             https://www.linkedin.com/in/vipingautamj/</code>
         </div>
         <div className="problem">
-        <form>
-            
-{ /*<input type="textarea"></input> 
-            <input type="email" ></input>
-            <input type="number"></input> */}
-        </form>
-
-
+    
         </div>
-
+        </div>
+<About/>
 </div>
 
 
