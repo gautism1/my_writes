@@ -5,6 +5,9 @@ const Nav = lazy(() => import('./components/nav'));
 const HeroHeader =lazy(()=> import('./components/heroheader'))
 const Blogs=lazy(()=>import('./components/blogs'))
 const Contact =lazy(()=> import ('./components/contact'))
+const  Footer =lazy(()=> import ('./components/footer'))
+
+
 const renderLoader = () =>  <div >
 <h1>Loading...
 please wait
@@ -26,6 +29,7 @@ function App() {
                      <Route path="/Contact" component={Contact}/>
                 </Switch>
                  </div>
+                 <Footer/>
     </div>
     </Suspense>
      </Router>

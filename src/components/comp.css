@@ -146,3 +146,12 @@ font-weight:normal;
       height:100%;
       width:100%;
   }
+  .foot{
+      color:brown;
+      font-size:25px;
+        text-decoration:none;
+  }
+  .foot a{
+       
+      color:black;
+  }
