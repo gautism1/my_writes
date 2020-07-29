@@ -9,8 +9,7 @@ function blogs()
 {
     return(
         <div className="head"> 
-           <div >
-               <h1 className="head-inside"> What? Why? How?"React"</h1>  
+                      <h1 className="head-inside"> What? Why? How?"React"</h1>  
                <div>
                <img src={logimg} className="logimg"></img>
                </div>
@@ -89,7 +88,7 @@ runour react-app using npm start;
              
               </div >
 
-           </div>
+          
 
             
         </div>
