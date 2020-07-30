@@ -1,5 +1,6 @@
 import React from 'react'
-import Dp from '../assets/dp.jpg'
+ 
+import skills from '../assets/skills.svg';
 import './comp.css'
 
 function about()
@@ -8,8 +9,9 @@ function about()
 
 <div>
         <div className="aboutme">
+        
             <div className="about">
-             <p>Hello Geeks</p>
+            
               <br></br> 
               <h3> We are Litecoders, we welcome you</h3>
                 <span>
@@ -18,7 +20,7 @@ function about()
                 </p>
             </div>
             <div className="photo">
-              <img src={Dp} className="dp"/>
+              <img src={skills} className="dp"/>
               </div>
               
               </div>

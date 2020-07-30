@@ -25,7 +25,6 @@ function App() {
                  <Switch>
                      <Route path="/" exact component={HeroHeader} />
                      <Route path="/Blogs" component={Blogs} />
-                    
                      <Route path="/Contact" component={Contact}/>
                 </Switch>
                  </div>

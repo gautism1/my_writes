@@ -1,6 +1,7 @@
   
 .aboutme
 {
+     margin-top:5%;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
@@ -8,7 +9,7 @@
  
 .photo
 {
-    margin-top:5%;
+   
     margin-right:10%;
 }
 .dp
@@ -18,14 +19,16 @@
     padding:10px;
     border-radius:300px;
 }
-.ontact-top{
+.contact-top{
 margin:0 auto;
 }
 .contact{
-    display:flex;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
-   
+    width:300px;
+    margin:0 auto;
+    padding:10px;
+    border-radius:0px 30px 0px 30px ;
+    border:2px solid brown;
+
 }
 .contactinfo{
     font-weight:bold;
@@ -38,22 +41,24 @@ margin:0 auto;
     font-size:2vw;
     width: 0 auto;
      margin-top:5%;
-    border-radius:50px;
-    
+    border-radius:50px;  
     padding:20px;
 }
-.head-inside{
-    
+.head-inside{   
  margin:0 auto;
 }
 .info{
      text-align:left;
-      
+      margin-right:20%;
      margin-top:4%;
       margin-left:8%;
      font-size:20px;
 }
- 
+ @media(max-width:500px){
+     .info{margin:0 auto;
+      
+ }
+ }
   .innerpost{
 
       display:flex;
@@ -63,9 +68,9 @@ margin:0 auto;
   }
   
   .card{
-border-radius:30px;
+      border-radius:30px;
       align-items:center;
-      height:500px;
+      height:auto;
       text-align:left;
   }
   .card:hover{
@@ -83,12 +88,11 @@ border-radius:30px;
       text-align:center;
   }
   .image{
- 
         margin-top:10%; 
-     
         height:200px;
   }
   .topicname{
+      width:auto;
       font-weight:normal;
   }
  .author{
@@ -135,10 +139,11 @@ font-weight:normal;
     display:block;
 }
 .npx{
-    width:100%;
+    width:60vw;
 }
 .folder{
-    margin-top:5%;margin-left:5%;
+    margin-top:5%;
+    width:30%;
     text-align:center;
 }
   .start{
@@ -146,11 +151,14 @@ font-weight:normal;
       width:100%;
   }
   .foot{
-      color:brown;
       font-size:25px;
-        text-decoration:none;
   }
   .foot a{
-       
-      color:black;
+       border:2px dashed black;
+       padding:5px;
+      text-decoration:none;
+  }
+  .foot a:hover{
+color:white;
+    background-color:black;
   }

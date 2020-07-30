@@ -8,15 +8,17 @@ function contact()
   <div>
   <About/>
   <div className="contact-top"> 
+  <br></br>
+  <br></br>
   <div className="contact">
             <div className="contactinfo">
-            You can contact me througn mail:
+            You can contact us througn mail:
             <br></br>
             <p>vipingautam.m@gmail.com</p>
-            also you can contact me through my Linkdin
+            also you can contact us through Linkdin
             <br></br>
-            <code>
-            https://www.linkedin.com/in/vipingautamj/</code>
+           <a href="   https://www.linkedin.com/in/vipingautamj/"> <code>
+             through this link</code></a>
         </div>
          
         </div>

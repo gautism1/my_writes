@@ -5,11 +5,13 @@ import React from 'react';
  import folder from '../assets/folderreact.png';
 import started from '../assets/start.png';
 import './comp.css';
+import details from './details'
+
 function blogs()
-{
+{ 
     return(
         <div className="head"> 
-                      <h1 className="head-inside"> What? Why? How?"React"</h1>  
+                      <h1 className="head-inside">  {details.blogs.blogheading}</h1>  
                <div>
                <img src={logimg} className="logimg"></img>
                </div>
@@ -66,7 +68,7 @@ Use this command to create React project
 
 Now wait for sometime it will create a folder of your project. 
 Go inside that folder 
-
+<br></br>
 <img src={folder} className="folder "></img>
  
  <p>The most IMPORTANT is App.js .In our next Lite_code we will discuss about the files and folder used in this folder </p>

@@ -1,25 +1,23 @@
 import React from 'react';
 import './nav.css';  
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import details from './details';
+
 function nav()
-{
+{ 
+    const { navBar }=details;
+    const { navBarLinks }=navBar;
     return(
     <div className="header">
     <div className="nav">
-    
        <ul> 
-       <div className="logo">Litecode</div>
-          <li><Link  exact to="/" className="link">Home</Link>
-          </li>
-          <li><Link to="/Blogs" className="link">Blogs</Link>
-          </li>
-        
-           <li>
-          <Link to="/Contact" className="link">Contact</Link> 
-           </li>
+          <span className="logo">{navBar.name}</span>
+       { navBarLinks.map((Link,index)=> (
+                <NavLink key="index" exact to={Link.to} className="link" activeClassName="active" >{Link.name}</NavLink>
+           ))
+       }
        </ul>
     </div>
-     
     </div>
     );
 }
