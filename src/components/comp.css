@@ -2,9 +2,11 @@
 .aboutme
 {
      margin-top:5%;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
+     padding:50px;
+     border:2px dashed brown;
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:space-evenly;
 }
  
 .photo
@@ -99,66 +101,100 @@ margin:0 auto;
       height:30px;
       display:flex;margin:0;
   }
-.author p{
+  .author p{
     width:200px;
     text-align:top;
     margin:0;
     margin-left:5%;
-}
-.author-image{
+  }
+  .author-image{
     height:40px;
     width:40px;
     border-radius:30px;
-}
-.date
-{
+  }
+  .date
+  {
     font-size:10px;
-}
-.headingtopic a{
-text-decoration:none;
-color:black;
-font-weight:10;
-}
-.logimg{
+  }
+  .headingtopic a{
+    text-decoration:none;
+    color:black;
+    font-weight:10;
+  }
+   .logimg{
     height:20vw;
     width:30%;
     padding:20px;
-}
-.spanlist ul li{
+  }
+  .spanlist ul li{
     text-decoration:none;
     list-style:none;
     border:none;
     display:block;
-}
-.spanlist ul li:hover{
-box-shadow:none;
-font-weight:normal;
+  }
+ .spanlist ul li:hover
+  {
+    box-shadow:none;
+   font-weight:normal;
  
-}
-.spanlist ul{
+  }
+  .spanlist ul
+  {
     display:block;
-}
-.npx{
+  }
+  .npx
+  {
     width:60vw;
-}
-.folder{
+  }
+  .folder
+  {
     margin-top:5%;
     width:30%;
     text-align:center;
-}
-  .start{
+  }
+  .start
+  {
       height:100%;
       width:100%;
   }
-  .foot{
-      font-size:25px;
+  .foot
+  {   
+      background:lightgrey;
+      font-size:2vw;
   }
   .foot a{
        border:2px dashed black;
        padding:5px;
-      text-decoration:none;
+       text-decoration:none;
   }
   .foot a:hover{
-color:white;
+    color:white;
     background-color:black;
   }
+  .home
+  {
+      margin-top:5px; 
+  }
+  .homehead
+  {
+      height: auto;      
+  }
+  .logo
+   {
+    width:300px;
+    margin:0 auto;
+    height:300px;
+   
+   }
+ .coollogo
+   {    
+    color:brown;
+    font-weight:bolder;
+    font-size:100px;
+    border-bottom:2px dashed brown;
+ }
+
+ .pas{
+     font-size:40px;
+     font-weight:bolder;
+ }

@@ -15,10 +15,10 @@ function contact()
             You can contact us througn mail:
             <br></br>
             <p>vipingautam.m@gmail.com</p>
-            also you can contact us through Linkdin
+            also you can contact us through 
             <br></br>
            <a href="   https://www.linkedin.com/in/vipingautamj/"> <code>
-             through this link</code></a>
+              Linkdin</code></a>
         </div>
          
         </div>

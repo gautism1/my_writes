@@ -10,19 +10,18 @@ function post()
   const {cards} =details;
   const {cardinfo} =cards;
     return(
- <div className="postcard"> 
+ <div className="postcard" > 
        <div className="innerpost">
           {
             cardinfo.map((cardinfo,index)=>(
-<div className="card"> 
-          
+           <div className="card"> 
               <div className="cardinner">
               <div className="underline"> </div>
                 <div className="cardimage">
-                  <Link to="/Blogs">  <img src={logimg} className="image" alt={cards.imageurl}></img> </Link>
+               <a href={cardinfo.blogurl}> <img src={cardinfo.cardtitleimgurl} className="image" alt={cards.imageurl}></img> </a>
                </div>
                <div className="headingtopic">
-                  <Link to="/Blogs">   <h2  className="topicname"> {cardinfo.cardtitle}</h2> </Link>
+                  <a href= {cardinfo.blogurl}>   <h2  className="topicname"> {cardinfo.cardtitle}</h2> </a>
                </div>
                <div className="author">
                <div>
@@ -32,16 +31,16 @@ function post()
                    </a>
               </div>
          <div> 
-             <p>  {cardinfo.authorname}</p>
-             <p className="date">  {cardinfo.date}</p>  
+             <p>  
+             {cardinfo.authorname}
+             </p>
+             <p className="date">  {cardinfo.date}
+             </p>  
          </div>
              </div>
            <div className="Desciption">
-          <p> This is the first Lite_code :
-           <br>
-               </br>
-         {cardinfo.description}
-          </p>
+           <p>
+          <span>{cardinfo.description}</span></p>
           </div>
        </div>
     </div>

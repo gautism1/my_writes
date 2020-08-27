@@ -5,14 +5,13 @@ const Title =lazy(()=> import('./title'));
 
 
 const renderloader = () =>  <div className="loading">Loading...
-please wait</div>;
+please your content is ready wait</div>;
 function heroheader()
 {
     return(
     <div >   
         <div>
-               <Title/>
-                   
+               <Title/>               
         </div>
         <Post/>
     </div>
